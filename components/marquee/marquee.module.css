@@ -1,0 +1,8 @@
+@keyframes marquee {
+    0% { transform: translate(0%, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+.animateMarquee {
+    animation: marquee 60s infinite linear; /* Ensure enough space for the entire content to scroll */
+}

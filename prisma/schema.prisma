@@ -1,0 +1,101 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["omitApi"]
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+enum JobType {
+  FULL_TIME
+  PART_TIME
+  CONTRACT
+  TEMPORARY
+  INTERNSHIP
+}
+
+enum SeniorityLevel {
+  ENTRY
+  JUNIOR
+  MID_LEVEL
+  SENIOR
+  LEAD
+  MANAGER
+  EXECUTIVE
+}
+
+enum EducationLevel {
+  HIGH_SCHOOL
+  ASSOCIATE
+  BACHELOR
+  MASTER
+  DOCTORATE
+}
+
+enum ApplicationStatus {
+  PENDING
+  REJECTED
+  HIRED
+}
+
+model leads {
+  id          String  @id @default(auto()) @map("_id") @db.ObjectId
+  fullName    String
+  email       String
+  budget      String
+  leadSource  String
+  message     String
+  phoneNumber String?
+}
+
+model Job {
+  id               String           @id @default(auto()) @map("_id") @db.ObjectId
+  title            String
+  company          String
+  location         String
+  type             JobType 
+  salary           String
+  salaryCurrency   String           @default("USD")
+  description      String           @db.String
+  responsibilities String[]
+  requirements     String[]
+  benefits         String[]
+  role             String
+  department       String?
+  seniorityLevel   SeniorityLevel?
+  experienceYears  Int?
+  educationLevel   EducationLevel?
+  skills           String[]
+  postedDate       DateTime?         @default(now())
+  expirationDate   DateTime?
+  isRemote         Boolean          @default(false)
+  isOpen           Boolean          @default(true)
+  applications     Int              @default(0)
+  updatedAt        DateTime         @updatedAt
+  createdAt        DateTime         @default(now())
+  JobApplication   JobApplication[]
+}
+
+model JobApplication {
+  id               String            @id @default(auto()) @map("_id") @db.ObjectId
+  fullName         String
+  email            String
+  contactNumber    String
+  address          String
+  experience       Int
+  employmentStatus String
+  jobId            String            @db.ObjectId
+  resumeLink       String?
+  job              Job               @relation(fields: [jobId], references: [id])
+  status           ApplicationStatus @default(PENDING)
+  submittedAt      DateTime          @default(now())
+  updatedAt        DateTime          @updatedAt
+}
