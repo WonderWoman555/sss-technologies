@@ -1,4 +1,4 @@
-import RitikaMamImage from '@/assets/ritika-mam.jpg'
+// import RitikaMamImage from '@/assets/ritika-mam.jpg'
 import ChhayaImage from '@/assets/team/chhaya.jpg'
 import AishwaryaImage from '@/assets/team/aishwarya.jpg'
 import karishmaImage from '@/assets/team/karishma.jpg'
@@ -8,11 +8,11 @@ import AnujImage from '@/assets/team/anuj.jpg'
 
 
 export const teamsinfo = [
-    {
-        img: RitikaMamImage,
-        name: "Ritika Shrivastava",
-        position: "Founder & CEO",
-    },
+    // {
+    //     img: RitikaMamImage,
+    //     name: "Ritika Shrivastava",
+    //     position: "Founder & CEO",
+    // },
 
     {
         img: NaveenImage,
