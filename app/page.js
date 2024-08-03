@@ -4,7 +4,6 @@ import { nanoid } from "nanoid";
 export default function Home() {
   return (
     <main className="flex flex-col gap-3 h-auto">
-      <div>Hello</div>
       {homePageSections?.map((Home, i) => (
         <Home.Comp
           bgMute={i % 2 === 0 ? true : false}
