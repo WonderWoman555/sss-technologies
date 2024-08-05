@@ -1,10 +1,10 @@
 // import RitikaMamImage from '@/assets/ritika-mam.jpg'
-import ChhayaImage from '@/assets/team/chhaya.jpg'
+import ChhayaImage from '@/assets/team/chhaya2.jpeg'
 import AishwaryaImage from '@/assets/team/aishwarya.jpg'
 import karishmaImage from '@/assets/team/karishma.jpg'
 import AdityaImage from '@/assets/team/aditya.jpg'
 import NaveenImage from '@/assets/team/naveen.jpg'
-import AnujImage from '@/assets/team/anuj.jpg'
+import AnujImage from '@/assets/team/neha.png'
 
 
 export const teamsinfo = [
@@ -34,18 +34,18 @@ export const teamsinfo = [
     {
         img: karishmaImage,
         name: "Karishma Dawar",
-        position: "Founder & CEO",
+        position: "Full Stack Developer",
     },
 
     {
         img: AdityaImage,
         name: "Aditya Singh",
-        position: "Founder & CEO",
+        position: "Mern Stack Developer",
     },
 
     {
         img: AnujImage,
-        name: "Anuj nema",
+        name: "Neha Patankar",
         position: "Full stack developer",
     }
 ];
