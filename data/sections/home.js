@@ -47,7 +47,7 @@ export const homePageSections = [
     {
         name: "Teams",
         Comp: Teams,
-        subHeading: "Meet out team",
+        subHeading: "Meet our team",
         heading: "Our Coding Ninja's",
         link: "View All Articles",
         teamsFinal: teamsinfo

@@ -43,7 +43,7 @@ export const aboutSections = [
     {
         name: "Teams",
         Comp: Teams,
-        subHeading: "Meet out team",
+        subHeading: "Meet our team",
         heading: "Our Coding Ninja's",
         teamsFinal: teamsinfo
     },

@@ -24,7 +24,7 @@ export const AboutSecondary = ({ link, additionalBox }) => {
 
                     <div className="h-full w-full flex flex-col gap-5 justify-between pt-9 md:pt-5  text-center md:text-start">
                         <div className="">
-                            <SubHeading className="text-xl font-semibold">About us</SubHeading>
+                            <SubHeading className="text-xl font-semibold text-primary-light">About us</SubHeading>
                             <Heading className="" heading={'h1'}>Websites that tell your brand&apos;s story</Heading>
                         </div>
 

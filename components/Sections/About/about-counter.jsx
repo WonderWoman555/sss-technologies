@@ -27,7 +27,7 @@ const AboutCounter = ({ className }) => {
         if (startCounter) {
             let currentCount = 0;
             const incrementCounter = () => {
-                if (currentCount < 30) {
+                if (currentCount < 7) {
                     currentCount += 1;
                     setCount(currentCount);
                 } else {

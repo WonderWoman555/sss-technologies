@@ -40,7 +40,7 @@ export const Footer = () => {
 
             <div className="genuine-footer lg:py-5 text-dark-mute flex lg:flex-row flex-col lg:gap-10 
             gap-3 justify-between mb-7 lg:mb-3 sm:text-left text-center text-sm lg:text-base">
-                <div className="">Copyright © 2024 SSS Techies. All rights reserved.</div>
+                <div className="">Copyright © 2024 SSS Technologies. All rights reserved.</div>
                 <div className="flex lg:gap-8 lg:text-base gap-5 text-center sm:justify-start justify-center text-sm">
                     {/* <span>Privacy Policy</span> */}
                     {/* <span>Terms Of Services</span> */}
