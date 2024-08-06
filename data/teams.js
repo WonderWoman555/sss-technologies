@@ -4,15 +4,15 @@ import AishwaryaImage from '@/assets/team/aishwarya.jpg'
 import karishmaImage from '@/assets/team/karishma.jpg'
 import AdityaImage from '@/assets/team/aditya.jpg'
 import NaveenImage from '@/assets/team/naveen.jpg'
-import AnujImage from '@/assets/team/neha.png'
-
+import Team from '@/assets/team/neha.png'
+import RitikaMamImage from '@/assets/team/ritika-mam.jpg' 
 
 export const teamsinfo = [
-    // {
-    //     img: RitikaMamImage,
-    //     name: "Ritika Shrivastava",
-    //     position: "Founder & CEO",
-    // },
+    {
+        img: RitikaMamImage,
+        name: "Ritika Shrivastava",
+        position: "Founder & CEO",
+    },
 
     {
         img: NaveenImage,
@@ -43,9 +43,9 @@ export const teamsinfo = [
         position: "Mern Stack Developer",
     },
 
-    {
-        img: AnujImage,
-        name: "Neha Patankar",
-        position: "Full stack developer",
-    }
+    // {
+    //     img: AnujImage,
+    //     name: "Neha Patankar",
+    //     position: "Full stack developer",
+    // }
 ];

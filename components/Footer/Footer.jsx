@@ -15,9 +15,9 @@ export const Footer = () => {
                     <Description>Simple, Smart Solutions</Description>
 
                     <div className="flex flex-col gap-3">
-                        <h4 className='lg:text-xl text-lg font-semibold'>Sales@ssstechies.Com</h4>
+                        <h4 className='lg:text-xl text-lg font-semibold'>sales@ssstechies.Com</h4>
                         <Link href={'tel:9131823248'}>
-                            <h4 className='lg:text-xl text-lg font-semibold'>(+91) 913 18 23248</h4>
+                            <h4 className='lg:text-xl text-lg font-semibold'>(+91) 810 94 44624</h4>
                         </Link>
                     </div>
                 </div>
