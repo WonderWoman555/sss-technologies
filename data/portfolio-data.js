@@ -129,18 +129,18 @@
 //   }
 // ]
 
-import ecommerceImg from '@/assets/portfolio/web-development-for-e-commerce.jpg'
+import ecommerceImg from '@/assets/portfolio/Web-Development.png'
 import GameDevelopment from '@/assets/portfolio/Game-Development.jpg'
-import EmailMarketing from '@/assets/portfolio/email-marketing.png'
-import SocialMediaCampaign from '@/assets/portfolio/Social-Media-Campaign.jpg'
+import EmailMarketing from '@/assets/portfolio/marketing-automation.webp'
+import SocialMediaCampaign from '@/assets/portfolio/Social-Media-Automation.webp'
 import CustomContentManagement from '@/assets/portfolio/custom-content-management-system.png'
-import ElearningApp from '@/assets/portfolio/e-learning.png'
-import CorporateWebsite from '@/assets/portfolio/corporate-website-redesign.png'
-import BrandLogoRedesign from '@/assets/portfolio/brand-logo-redesign.png'
+import ElearningApp from '@/assets/portfolio/education_app_design.jpg'
+import CorporateWebsite from '@/assets/portfolio/modern-website-design.jpg'
+import BrandLogoRedesign from '@/assets/portfolio/brand-logo.jpg'
 import BrochureDesigns from '@/assets/portfolio/Brochure-Designs.jpg'
-import SocialMediaInfographic from '@/assets/portfolio/social-media-infographic.png'
+import SocialMediaInfographic from '@/assets/portfolio/social-media-and-Graphic-Design.jpg'
 import TechStartUp from '@/assets/portfolio/tech-startup.jpg'
-import EcommerceMobileApp from '@/assets/portfolio/Ecommerce-mobile-app.png'
+import EcommerceMobileApp from '@/assets/portfolio/Mobile-E-Commerce-App.webp'
 
 export const portfolioData = [
   {
